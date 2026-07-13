@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website Resmi Informasi Pembukaan Turnamen Sepak Bola Antar Kodam Piala Kasad dalam rangka HUT RI ke-82 di Lapangan Mabesad. Rebut hadiah Utama 1 Unit Mobil Taktis dan Piala Bergilir!">
+    <title>HUT RI 82: Turnamen Sepak Bola Antar Kodam | Mabesad</title>
+    <!-- FontAwesome for Military & Sport Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-shield">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-title">PIALA KASAD</span>
+                    <span class="logo-sub">SECURE // HUT RI 82</span>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#hadiah" class="nav-link">Hadiah</a>
+                <a href="#persyaratan" class="nav-link">Persyaratan</a>
+                <a href="#timeline" class="nav-link">Timeline</a>
+                <a href="#lokasi" class="nav-link">Lokasi</a>
+                <a href="#daftar" class="nav-btn-link">Daftar Tim</a>
+            </nav>
+            <div class="mobile-menu-toggle" id="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Countdown -->
+    <section id="hero" class="hero-section">
+        <div class="grid-overlay"></div>
+        <div class="hero-content">
+            <div class="badge-container animate-fade-in">
+                <span class="military-badge"><i class="fa-solid fa-star gold-text"></i> MILITARY OPERATIONS DEPT <i class="fa-solid fa-star gold-text"></i></span>
+            </div>
+            <span class="hud-code animate-fade-in">[ SEC-CODE: HUT-RI-82 // LOC: LAP. MABESAD ]</span>
+            <h1 class="hero-title animate-slide-up">
+                REBUT GLORI<br>
+                <span class="highlight-gold hud-title-text">KASAD CHAMPIONSHIP</span>
+            </h1>
+            <p class="hero-subtitle animate-slide-up-delay">
+                Pertempuran taktis sepak bola antar Kodam se-Indonesia dalam rangka HUT RI ke-82. Tunjukkan sinergi fisik, kekuatan strategi, dan jiwa korsa prajurit sejati!
+            </p>
+            
+            <!-- Countdown Timer -->
+            <div class="countdown-wrapper hud-brackets animate-slide-up-delay-2">
+                <div class="hud-brackets-inner"></div>
+                <h3 class="countdown-title">[ SYSTEM COUNTDOWN TO OPENING ]</h3>
+                <div class="countdown-container" id="countdown" data-target="August 10, 2027 08:00:00">
+                    <div class="time-block">
+                        <span class="time-number" id="days">00</span>
+                        <span class="time-label">DAYS</span>
+                    </div>
+                    <div class="time-divider">:</div>
+                    <div class="time-block">
+                        <span class="time-number" id="hours">00</span>
+                        <span class="time-label">HOURS</span>
+                    </div>
+                    <div class="time-divider">:</div>
+                    <div class="time-block">
+                        <span class="time-number" id="minutes">00</span>
+                        <span class="time-label">MINUTES</span>
+                    </div>
+                    <div class="time-divider">:</div>
+                    <div class="time-block">
+                        <span class="time-number" id="seconds">00</span>
+                        <span class="time-label">SECONDS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="hero-actions animate-slide-up-delay-3">
+                <a href="#daftar" class="btn btn-primary"><i class="fa-solid fa-crosshairs"></i> Registrasi Skuad</a>
+                <a href="#persyaratan" class="btn btn-secondary"><i class="fa-solid fa-circle-nodes"></i> Regulasi Tim</a>
+            </div>
+        </div>
+        <div class="scroll-down-indicator">
+            <span class="mouse-wheel"></span>
+            <span class="arrow-down"></span>
+        </div>
+    </section>
+
+    <!-- Info Highlights -->
+    <section class="quick-info-section">
+        <div class="container grid-3">
+            <div class="info-card hud-brackets">
+                <div class="hud-brackets-inner"></div>
+                <div class="info-icon-box"><i class="fa-solid fa-location-crosshairs"></i></div>
+                <div class="info-details">
+                    <h4>STADION MABESAD</h4>
+                    <p>[ COORD: 06°10'31"S 106°49'37"E ]</p>
+                </div>
+            </div>
+            <div class="info-card hud-brackets">
+                <div class="hud-brackets-inner"></div>
+                <div class="info-icon-box"><i class="fa-solid fa-truck-monster"></i></div>
+                <div class="info-details">
+                    <h4>MOBIL TAKTIS & PIALA</h4>
+                    <p>[ STATUS: OPERASIONAL JUARA ]</p>
+                </div>
+            </div>
+            <div class="info-card hud-brackets">
+                <div class="hud-brackets-inner"></div>
+                <div class="info-icon-box"><i class="fa-solid fa-user-shield"></i></div>
+                <div class="info-details">
+                    <h4>INTERNAL TNI ONLY</h4>
+                    <p>[ QUOTA RATIO: 40% YOUNG / 60% SENIOR ]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hadiah Utama Section -->
+    <section id="hadiah" class="section-padding hadiah-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">[ OPERATIONAL ASSETS REWARD ]</span>
+                <h2 class="section-title">HADIAH UTAMA TURNAMEN</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Dua simbol supremasi taktis tertinggi menanti Kodam terbaik yang mampu memimpin klasemen pertandingan.</p>
+            </div>
+            
+            <div class="hadiah-grid">
+                <!-- Hadiah Mobil Taktis -->
+                <div class="hadiah-card featured hud-brackets">
+                    <div class="hud-brackets-inner"></div>
+                    <div class="badge-featured">HADIAH UTAMA</div>
+                    <div class="hadiah-image-container">
+                        <img src="assets/mobil_taktis.jpg" alt="Mobil Taktis Utama" class="hadiah-image">
+                        <div class="image-gradient-overlay"></div>
+                    </div>
+                    <div class="hadiah-content">
+                        <div class="hadiah-icon"><i class="fa-solid fa-truck-monster"></i></div>
+                        <h3>1 Unit Mobil Taktis Ringan</h3>
+                        <p>Kendaraan taktis modern pelindung baja ringan dengan spesifikasi khusus, bertenaga tinggi, dan bersistem penggerak 4x4. Dirancang khusus untuk efisiensi mobilitas taktis prajurit di berbagai medan ekstrim.</p>
+                        <ul class="hadiah-specs">
+                            <li><i class="fa-solid fa-circle-chevron-right"></i> [ SPEC-01: MESIN TURBO DIESEL 2500CC ]</li>
+                            <li><i class="fa-solid fa-circle-chevron-right"></i> [ SPEC-02: SISTEM ARMOR BALISTIK RINGAN ]</li>
+                            <li><i class="fa-solid fa-circle-chevron-right"></i> [ SPEC-03: RUGGED ALL-TERRAIN WHEELS ]</li>
+                            <li><i class="fa-solid fa-circle-chevron-right"></i> [ SPEC-04: SISTEM KOMUNIKASI MILITER TERINTEGRASI ]</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Hadiah Piala Bergilir -->
+                <div class="hadiah-card hud-brackets">
+                    <div class="hud-brackets-inner"></div>
+                    <div class="hadiah-image-container">
+                        <img src="assets/piala_juara.jpg" alt="Piala Bergilir Kasad" class="hadiah-image">
+                        <div class="image-gradient-overlay"></div>
+                    </div>
+                    <div class="hadiah-content">
+                        <div class="hadiah-icon"><i class="fa-solid fa-award"></i></div>
+                        <h3>Piala Bergilir KASAD</h3>
+                        <p>Trophy bergengsi berlapis logam mulia dengan ukiran lambang Kartika Eka Paksi. Lambang kejayaan sepak bola fisik dan disiplin taktik terbaik di jajaran Tentara Nasional Indonesia.</p>
+                        <ul class="hadiah-specs">
+                            <li><i class="fa-solid fa-circle-chevron-right"></i> [ SPEC-01: EMAS MURNI & POLISHED STEEL ]</li>
+                            <li><i class="fa-solid fa-circle-chevron-right"></i> [ SPEC-02: UKIRAN NAMA KODAM JUARA ]</li>
+                            <li><i class="fa-solid fa-circle-chevron-right"></i> [ SPEC-03: PIALA BERGILIR DIREBUT KEMBALI ]</li>
+                            <li><i class="fa-solid fa-circle-chevron-right"></i> [ SPEC-04: PIN MEDALI KEHORMATAN HUT RI 82 ]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Persyaratan & Regulasi Section -->
+    <section id="persyaratan" class="section-padding persyaratan-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">[ SQUAD COMPOSITION REGULATION ]</span>
+                <h2 class="section-title">PERSYARATAN & KUOTA PEMAIN</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Guna memelihara kesinambungan fisik dan regenerasi taktis, turnamen menerapkan rasio wajib usia pemain.</p>
+            </div>
+
+            <div class="persyaratan-grid">
+                <!-- Visual Kuota Usia -->
+                <div class="persyaratan-visual hud-brackets">
+                    <div class="hud-brackets-inner"></div>
+                    <h3 class="visual-title"><i class="fa-solid fa-chart-pie"></i> RASIO RASIO KOMPOSISI TIM</h3>
+                    <p class="visual-desc">Setiap tim Kodam mendaftarkan 11 pemain utama + 9 cadangan (Total 20 pemain) dengan rasio wajib:</p>
+                    
+                    <div class="charts-container">
+                        <!-- Chart Muda -->
+                        <div class="chart-box">
+                            <div class="circular-progress" data-percent="40" style="--percent: 40; --color: var(--gold);">
+                                <div class="inner-value">40%</div>
+                            </div>
+                            <div class="chart-label">
+                                <strong>PRAJURIT MUDA</strong>
+                                <span>[ USIA &lt; 30 TAHUN ]</span>
+                            </div>
+                        </div>
+
+                        <!-- Chart Senior -->
+                        <div class="chart-box">
+                            <div class="circular-progress" data-percent="60" style="--percent: 60; --color: var(--primary);">
+                                <div class="inner-value">60%</div>
+                            </div>
+                            <div class="chart-label">
+                                <strong>PRAJURIT SENIOR</strong>
+                                <span>[ USIA &ge; 30 TAHUN ]</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="ratio-bar">
+                        <div class="ratio-fill ratio-under-30" style="width: 40%;">UNDER 30 (40%)</div>
+                        <div class="ratio-fill ratio-over-30" style="width: 60%;">OVER 30 (60%)</div>
+                    </div>
+                </div>
+
+                <!-- Regulasi Tertulis -->
+                <div class="persyaratan-list">
+                    <div class="requirement-item hud-brackets">
+                        <div class="hud-brackets-inner"></div>
+                        <div class="req-icon"><i class="fa-solid fa-passport"></i></div>
+                        <div class="req-detail">
+                            <h4>PRAJURIT INTERNAL AKTIF TNI</h4>
+                            <p>Seluruh roster wajib merupakan personel militer aktif dari jajaran Kodam bersangkutan, dibuktikan dengan Kartu Tanda Anggota (KTA) TNI sah.</p>
+                        </div>
+                    </div>
+                    <div class="requirement-item hud-brackets">
+                        <div class="hud-brackets-inner"></div>
+                        <div class="req-icon"><i class="fa-solid fa-calculator"></i></div>
+                        <div class="req-detail">
+                            <h4>KOMPOSISI TEPAT 8 / 12 PEMAIN</h4>
+                            <p>Dari total 20 pemain yang terdaftar dalam kontingen, kuota usia harus tepat: 8 pemain berusia di bawah 30 tahun dan 12 pemain berusia 30 tahun ke atas.</p>
+                        </div>
+                    </div>
+                    <div class="requirement-item hud-brackets">
+                        <div class="hud-brackets-inner"></div>
+                        <div class="req-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                        <div class="req-detail">
+                            <h4>SURAT BEBAS RISIKO FISIK (KESDAM)</h4>
+                            <p>Pemain wajib melampirkan hasil evaluasi kesehatan fisik dan tes jantung/kardio dari rumah sakit Kesdam masing-masing kontingen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline "REBUT SAMPAI JADI JUARA" -->
+    <section id="timeline" class="section-padding timeline-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">[ ROADMAP TO VICTORY ]</span>
+                <h2 class="section-title">REBUT SAMPAI JADI JUARA</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Alur taktis pertempuran sepak bola dari seleksi awal hingga angkat piala di Lapangan Utama Mabesad.</p>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                
+                <!-- Step 1 -->
+                <div class="timeline-item left">
+                    <div class="timeline-badge"><i class="fa-solid fa-file-signature"></i></div>
+                    <div class="timeline-content hud-brackets">
+                        <div class="hud-brackets-inner"></div>
+                        <span class="timeline-date">[ PHASE 01 // 01 - 15 JULI 2027 ]</span>
+                        <h3>Pendaftaran & Verifikasi Admin</h3>
+                        <p>Pendaftaran tim secara daring & fisik. Penyerahan daftar susunan pemain (DSP), KTA, riwayat kesehatan, dan verifikasi rasio usia pemain (40:60) oleh Panitia Mabesad.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="timeline-item right">
+                    <div class="timeline-badge"><i class="fa-solid fa-network-wired"></i></div>
+                    <div class="timeline-content hud-brackets">
+                        <div class="hud-brackets-inner"></div>
+                        <span class="timeline-date">[ PHASE 02 // 01 AGUSTUS 2027 ]</span>
+                        <h3>Drawing & Technical Meeting</h3>
+                        <p>Pembagian grup Kodam, pembacaan regulasi detail pertandingan, serta undian jadwal kick-off. Dipimpin oleh Panitia Pusat Persatuan Sepak Bola Angkatan Darat (PSAD).</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="timeline-item left">
+                    <div class="timeline-badge"><i class="fa-solid fa-ranking-star"></i></div>
+                    <div class="timeline-content hud-brackets">
+                        <div class="hud-brackets-inner"></div>
+                        <span class="timeline-date">[ PHASE 03 // 10 - 15 AGUSTUS 2027 ]</span>
+                        <h3>Kualifikasi Regional Kodam</h3>
+                        <p>Babak penyisihan grup yang membagi kontingen ke dalam 4 grup (A, B, C, D). Pertandingan memperebutkan tiket perempat final dengan sistem setengah kompetisi.</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="timeline-item right">
+                    <div class="timeline-badge"><i class="fa-solid fa-shield-halved"></i></div>
+                    <div class="timeline-content hud-brackets">
+                        <div class="hud-brackets-inner"></div>
+                        <span class="timeline-date">[ PHASE 04 // 17 - 20 AGUSTUS 2027 ]</span>
+                        <h3>Babak Gugur (Knockout Stage)</h3>
+                        <p>Babak perempat final dan semifinal yang panas. Bertepatan dengan semarak HUT RI ke-82, pertandingan diselenggarakan dengan sistem gugur langsung di Lapangan Mabesad.</p>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="timeline-item left highlight">
+                    <div class="timeline-badge gold-bg"><i class="fa-solid fa-trophy"></i></div>
+                    <div class="timeline-content gold-border hud-brackets">
+                        <div class="hud-brackets-inner"></div>
+                        <span class="timeline-date">[ FINAL PHASE // 22 AGUSTUS 2027 ]</span>
+                        <h3>Grand Final & Juara Sejati</h3>
+                        <p>Pertempuran puncak grand final memperebutkan gelar Juara Pertama, penyerahan Piala Bergilir KASAD, serta kunci simbolis 1 Unit Mobil Taktis oleh Bapak KASAD langsung.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lokasi & Arena Section -->
+    <section id="lokasi" class="section-padding lokasi-section">
+        <div class="lokasi-bg" style="background-image: url('assets/lapangan_mabesad.jpg');"></div>
+        <div class="lokasi-overlay"></div>
+        <div class="container lokasi-container-grid">
+            <div class="lokasi-content">
+                <span class="section-tag">[ BATTLEGROUND COORD ]</span>
+                <h2>LAPANGAN UTAMA MABESAD</h2>
+                <div class="section-line left"></div>
+                <p>Lapangan sepak bola berstandar internasional yang berada tepat di jantung Markas Besar TNI Angkatan Darat (Mabesad), Jakarta. Menawarkan atmosfer kompetisi yang disiplin, aman, dan sangat prestisius.</p>
+                
+                <div class="facility-grid">
+                    <div class="facility-item">
+                        <i class="fa-solid fa-circle-dot"></i>
+                        <span>Rumput Hybrid Kualitas Tinggi</span>
+                    </div>
+                    <div class="facility-item">
+                        <i class="fa-solid fa-circle-dot"></i>
+                        <span>Pencahayaan LED Stadion Malam</span>
+                    </div>
+                    <div class="facility-item">
+                        <i class="fa-solid fa-circle-dot"></i>
+                        <span>Tribun VIP & VVIP Lounge</span>
+                    </div>
+                    <div class="facility-item">
+                        <i class="fa-solid fa-circle-dot"></i>
+                        <span>Ruang Medis & Fisioterapi Lengkap</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lokasi-card hud-brackets">
+                <div class="hud-brackets-inner"></div>
+                <h3><i class="fa-solid fa-crosshairs"></i> ALAMAT LOKASI</h3>
+                <p class="address"><i class="fa-solid fa-map-location-dot"></i> Jl. Veteran No. 5, Gambir, Jakarta Pusat, DKI Jakarta (Kompleks Mabesad)</p>
+                
+                <div class="mock-map">
+                    <div class="map-radar"></div>
+                    <div class="map-marker"><i class="fa-solid fa-crosshairs"></i></div>
+                    <span class="map-label">MABESAD STADIUM FIELD</span>
+                </div>
+                
+                <a href="https://maps.google.com" target="_blank" class="btn btn-secondary btn-full"><i class="fa-solid fa-location-arrow"></i> NAVIGASI GOOGLE MAPS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Pendaftaran Simulasi (Live Validator) -->
+    <section id="daftar" class="section-padding daftar-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">[ ACTIVE COMBAT REGISTRATION ]</span>
+                <h2 class="section-title">REGISTRASI SKUAD KODAM</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Daftarkan tim Kodam Anda dan uji apakah roster pemain memenuhi kriteria ketat rasio usia (40% Muda dan 60% Senior).</p>
+            </div>
+
+            <div class="form-container hud-brackets">
+                <div class="hud-brackets-inner"></div>
+                <form id="registration-form" onsubmit="event.preventDefault(); submitForm();">
+                    <div class="form-grid">
+                        <!-- Left: Info Tim -->
+                        <div class="form-section">
+                            <h3><i class="fa-solid fa-folder-open"></i> ADMINISTRASI TIM</h3>
+                            <div class="form-group">
+                                <label for="kodam-name">KONTINGEN KODAM *</label>
+                                <select id="kodam-name" required>
+                                    <option value="" disabled selected>-- Pilih Kodam --</option>
+                                    <option value="Kodam Jaya">Kodam Jaya/Jayakarta</option>
+                                    <option value="Kodam I/Bukit Barisan">Kodam I/Bukit Barisan</option>
+                                    <option value="Kodam II/Sriwijaya">Kodam II/Sriwijaya</option>
+                                    <option value="Kodam III/Siliwangi">Kodam III/Siliwangi</option>
+                                    <option value="Kodam IV/Diponegoro">Kodam IV/Diponegoro</option>
+                                    <option value="Kodam V/Brawijaya">Kodam V/Brawijaya</option>
+                                    <option value="Kodam VI/Mulawarman">Kodam VI/Mulawarman</option>
+                                    <option value="Kodam IX/Udayana">Kodam IX/Udayana</option>
+                                    <option value="Kodam XII/Tanjungpura">Kodam XII/Tanjungpura</option>
+                                    <option value="Kodam XIII/Merdeka">Kodam XIII/Merdeka</option>
+                                    <option value="Kodam XIV/Hasanuddin">Kodam XIV/Hasanuddin</option>
+                                    <option value="Kodam XVI/Pattimura">Kodam XVI/Pattimura</option>
+                                    <option value="Kodam XVII/Cenderawasih">Kodam XVII/Cenderawasih</option>
+                                    <option value="Kodam XVIII/Kasuari">Kodam XVIII/Kasuari</option>
+                                    <option value="Kodam IM">Kodam Iskandar Muda</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="manager-name">NAMA MANAJER TIM *</label>
+                                <input type="text" id="manager-name" placeholder="Letkol Inf. Tri Wibowo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="manager-phone">TELEPON OFFICIAL KODAM *</label>
+                                <input type="tel" id="manager-phone" placeholder="08123456789" required>
+                            </div>
+                            
+                            <div class="rule-reminder">
+                                <h5>[ REGULATION RULES ]</h5>
+                                <p>• Total skuad wajib berisi 20 pemain aktif TNI.</p>
+                                <p>• 8 pemain wajib di bawah 30 tahun (Prajurit Muda).</p>
+                                <p>• 12 pemain wajib di atas 30 tahun (Prajurit Senior).</p>
+                            </div>
+                        </div>
+
+                        <!-- Right: Roster Pemain & Validator -->
+                        <div class="form-section">
+                            <h3><i class="fa-solid fa-users-gear"></i> ROSTER SKUAD & VALIDATOR</h3>
+                            
+                            <div class="live-validator-panel hud-brackets">
+                                <div class="hud-brackets-inner"></div>
+                                <div class="validator-header">
+                                    <span>STATUS VALIDASI USIA:</span>
+                                    <span id="validation-status-badge" class="badge-status error">TIDAK VALID</span>
+                                </div>
+                                <div class="validator-metrics">
+                                    <div class="metric">
+                                        <span class="metric-lbl">TOTAL ROSTER</span>
+                                        <span class="metric-val" id="val-total">0 / 20</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-lbl">PRAJURIT MUDA</span>
+                                        <span class="metric-val" id="val-young">0 (0%)</span>
+                                        <span class="metric-target">Target: 8</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-lbl">PRAJURIT SENIOR</span>
+                                        <span class="metric-val" id="val-senior">0 (0%)</span>
+                                        <span class="metric-target">Target: 12</span>
+                                    </div>
+                                </div>
+                                <div class="validator-message" id="validator-msg">
+                                    Harap tambahkan pemain dan atur umurnya untuk memenuhi rasio kuota 40% &lt; 30 Thn & 60% &ge; 30 Thn.
+                                </div>
+                            </div>
+
+                            <!-- Input Form untuk Add Player -->
+                            <div class="add-player-box hud-brackets">
+                                <div class="hud-brackets-inner"></div>
+                                <h4>Tambah Pemain Kontingen</h4>
+                                <div class="player-input-row">
+                                    <input type="text" id="new-player-name" placeholder="Nama Lengkap Prajurit">
+                                    <input type="number" id="new-player-age" placeholder="Umur" min="18" max="55">
+                                    <button type="button" class="btn-add-player" onclick="addPlayer()"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            </div>
+
+                            <!-- Daftar Pemain Sementara -->
+                            <div class="player-list-wrapper">
+                                <h4>DAFTAR PEMAIN TERDAFTAR (<span id="player-list-count">0</span>)</h4>
+                                <div class="player-list-header">
+                                    <span>NAMA PRAJURIT</span>
+                                    <span>KELAS USIA</span>
+                                    <span>AKSI</span>
+                                </div>
+                                <div class="player-list" id="roster-list">
+                                    <div class="no-player-msg">Belum ada pemain terdaftar. Silakan tambahkan pemain di atas.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-submit-row">
+                        <button type="submit" class="btn btn-primary btn-submit-form" id="submit-btn" disabled>
+                            <i class="fa-solid fa-shield-halved"></i> AJUKAN KONTINGEN TIM KODAM
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <div class="logo">
+                    <div class="logo-shield">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-title">PIALA KASAD</span>
+                        <span class="logo-sub">HUT RI KE-82</span>
+                    </div>
+                </div>
+                <p>Turnamen olahraga sepak bola resmi tingkat nasional jajaran TNI Angkatan Darat dalam rangka memperingati Hari Kemerdekaan Republik Indonesia Ke-82.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>NAVIGASI PERTANDINGAN</h4>
+                <ul>
+                    <li><a href="#hero">Beranda</a></li>
+                    <li><a href="#hadiah">Aset Hadiah</a></li>
+                    <li><a href="#persyaratan">Persyaratan Roster</a></li>
+                    <li><a href="#timeline">Jadwal Pertandingan</a></li>
+                    <li><a href="#lokasi">Mabesad Stadium</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>SEKRETARIAT PANITIA</h4>
+                <p><i class="fa-solid fa-building-flag"></i> Gedung Staf Personel AD, Mabesad</p>
+                <p><i class="fa-solid fa-envelope"></i> panitia.pialakasad82@tniad.mil.id</p>
+                <p><i class="fa-solid fa-phone"></i> (021) 3848123 - Ext. 4020</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container flex-between">
+                <p>&copy; 2027 Komite Olahraga Militer TNI AD. All Rights Reserved. HUT RI Ke-82.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notification Modal for Success Form -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content hud-brackets">
+            <div class="hud-brackets-inner"></div>
+            <div class="modal-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <h2>PENDAFTARAN TIM BERHASIL!</h2>
+            <p>Data kontingen tim Anda telah divalidasi dan tersimpan di database pusat pendaftaran Mabesad.</p>
+            <div class="modal-details">
+                <p><strong>KONTINGEN:</strong> <span id="modal-kodam"></span></p>
+                <p><strong>STATUS ROSTER:</strong> 20 Prajurit (Lengkap & Valid)</p>
+                <p><strong>RASIO USIA:</strong> 8 Prajurit Muda (40%) & 12 Prajurit Senior (60%)</p>
+            </div>
+            <button class="btn btn-primary" onclick="closeModal()">SELESAI & TUTUP</button>
+        </div>
+    </div>
+
+    <!-- Main JS Script -->
+    <script src="script.js"></script>
+</body>
+</html>
