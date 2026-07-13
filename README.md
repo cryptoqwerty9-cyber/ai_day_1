@@ -1,4 +1,4 @@
-# AI Day 2
+# AI Day 1
 
 This is the first day of AI training project.
 
